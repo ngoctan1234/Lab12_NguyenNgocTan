@@ -33,14 +33,14 @@ Sau khi hoàn thành lab này, bạn sẽ:
 
 ##  Lộ Trình Lab
 
-| Phần | Thời gian | Nội dung |
-|------|-----------|----------|
-| **Part 1** | 30 phút | Localhost vs Production |
-| **Part 2** | 45 phút | Docker Containerization |
-| **Part 3** | 45 phút | Cloud Deployment |
-| **Part 4** | 40 phút | API Security |
-| **Part 5** | 40 phút | Scaling & Reliability |
-| **Part 6** | 60 phút | Final Project |
+| Phần       | Thời gian | Nội dung                |
+| ---------- | --------- | ----------------------- |
+| **Part 1** | 30 phút   | Localhost vs Production |
+| **Part 2** | 45 phút   | Docker Containerization |
+| **Part 3** | 45 phút   | Cloud Deployment        |
+| **Part 4** | 40 phút   | API Security            |
+| **Part 5** | 40 phút   | Scaling & Reliability   |
+| **Part 6** | 60 phút   | Final Project           |
 
 ---
 
@@ -105,12 +105,12 @@ python app.py
 
 **Nhiệm vụ:** So sánh 2 files `app.py`. Điền vào bảng:
 
-| Feature | Basic | Advanced | Tại sao quan trọng? |
-|---------|-------|----------|---------------------|
-| Config | Hardcode | Env vars | ... |
-| Health check |  |  | ... |
-| Logging | print() | JSON | ... |
-| Shutdown | Đột ngột | Graceful | ... |
+| Feature      | Basic    | Advanced | Tại sao quan trọng? |
+| ------------ | -------- | -------- | ------------------- |
+| Config       | Hardcode | Env vars | ...                 |
+| Health check |          |          | ...                 |
+| Logging      | print()  | JSON     | ...                 |
+| Shutdown     | Đột ngột | Graceful | ...                 |
 
 ###  Checkpoint 1
 
@@ -225,11 +225,11 @@ curl http://localhost/ask -X POST \
 
 **So sánh:**
 
-| Platform | Độ khó | Free tier | Best for |
-|----------|--------|-----------|----------|
-| Railway | ⭐ | $5 credit | Prototypes |
-| Render | ⭐⭐ | 750h/month | Side projects |
-| Cloud Run | ⭐⭐⭐ | 2M requests | Production |
+| Platform  | Độ khó | Free tier   | Best for      |
+| --------- | ------ | ----------- | ------------- |
+| Railway   | ⭐      | $5 credit   | Prototypes    |
+| Render    | ⭐⭐     | 750h/month  | Side projects |
+| Cloud Run | ⭐⭐⭐    | 2M requests | Production    |
 
 ###  Exercise 3.1: Deploy Railway (15 phút)
 
@@ -340,7 +340,7 @@ cd ../../04-api-gateway/develop
 **Nhiệm vụ:** Đọc `app.py` và tìm:
 - API key được check ở đâu?
 - Điều gì xảy ra nếu sai key?
-- Làm sao rotate key?
+- Làm sao rotate ke?y
 
 Test:
 ```bash
@@ -871,15 +871,15 @@ Script sẽ kiểm tra:
 
 ###  Grading Rubric
 
-| Criteria | Points | Description |
-|----------|--------|-------------|
-| **Functionality** | 20 | Agent hoạt động đúng |
-| **Docker** | 15 | Multi-stage, optimized |
-| **Security** | 20 | Auth + rate limit + cost guard |
-| **Reliability** | 20 | Health checks + graceful shutdown |
-| **Scalability** | 15 | Stateless + load balanced |
-| **Deployment** | 10 | Public URL hoạt động |
-| **Total** | 100 | |
+| Criteria          | Points | Description                       |
+| ----------------- | ------ | --------------------------------- |
+| **Functionality** | 20     | Agent hoạt động đúng              |
+| **Docker**        | 15     | Multi-stage, optimized            |
+| **Security**      | 20     | Auth + rate limit + cost guard    |
+| **Reliability**   | 20     | Health checks + graceful shutdown |
+| **Scalability**   | 15     | Stateless + load balanced         |
+| **Deployment**    | 10     | Public URL hoạt động              |
+| **Total**         | 100    |                                   |
 
 ---
 
