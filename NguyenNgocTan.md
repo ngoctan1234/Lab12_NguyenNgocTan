@@ -473,15 +473,15 @@ Tất cả kiểm tra pass:
 
 ### 6.5. Self-grading (theo rubric của lab)
 
-| Criteria       | Points | Điểm tự đánh giá | Ghi chú                                            |
-| -------------- | ------ | ---------------- | -------------------------------------------------- |
-| Functionality  | 20     | 20               | `/ask` + history hoạt động                         |
-| Docker         | 15     | 15               | Multi-stage, image ~236 MB                         |
-| Security       | 20     | 20               | API key + JWT + rate limit + cost guard            |
-| Reliability    | 20     | 19               | Health/ready + graceful shutdown (thiếu streaming) |
-| Scalability    | 15     | 15               | Stateless + Nginx LB + scale=3                     |
-| Deployment     | 10     | 10               | Railway public URL live                            |
-| **Tổng**       | 100    | **99**           |                                                    |
+| Criteria      | Points | Điểm tự đánh giá | Ghi chú                                            |
+| ------------- | ------ | ---------------- | -------------------------------------------------- |
+| Functionality | 20     | 20               | `/ask` + history hoạt động                         |
+| Docker        | 15     | 15               | Multi-stage, image ~236 MB                         |
+| Security      | 20     | 20               | API key + JWT + rate limit + cost guard            |
+| Reliability   | 20     | 19               | Health/ready + graceful shutdown (thiếu streaming) |
+| Scalability   | 15     | 15               | Stateless + Nginx LB + scale=3                     |
+| Deployment    | 10     | 10               | Railway public URL live                            |
+| **Tổng**      | 100    | **99**           |                                                    |
 
 ---
 
@@ -515,6 +515,7 @@ https://github.com/ngoctan1234/Lab12_NguyenNgocTan.git
 
 ```
 https://agent-production-1-production.up.railway.app
+https://faithful-wonder-production-093d.up.railway.app/docs
 ```
 
 **Deadline:** 17/4/2026
